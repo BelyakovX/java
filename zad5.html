@@ -1,0 +1,28 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+
+	var a = Math.floor(Math.random()*100),
+					b = Math.floor(Math.random()*100);
+
+				alert(a);
+				alert(b);
+				function addition (a, b) {
+					return a+b;
+				}
+				function subtraction(a, b) {
+					return a-b;
+				}
+				function multiplication (a, b) {
+					return a*b;
+				}
+				function division (a, b) {
+					return a/b;
+				}
+				alert ('a (random) = ' + a +
+						'\nb (random) = ' + b +
+						'\na + b = ' + addition(a, b) +
+						'\na - b = ' + subtraction(a, b) +
+						'\na * b = ' + multiplication(a, b) +
+						'\na / b = ' + division(a, b).toFixed(4));
+
+</script>
